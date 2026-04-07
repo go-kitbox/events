@@ -1,0 +1,16 @@
+pulsar:
+  url: "pulsar://localhost:6650"
+  topic: "task-topic"
+  reply_topic: "reply-topic"
+  subscription: "rpc-subscription"
+  compression: 1
+  batching: true
+  batch_max_size: 1000
+
+rpc:
+  timeout: "10s"
+  max_retries: 3
+  retry_delay: "100ms"
+  worker_count: 10
+  queue_size: 10000
+  concurrency: 1000
