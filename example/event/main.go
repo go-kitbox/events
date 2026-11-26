@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	rpc "github.com/osc678/pulsar-rpc/pulsar_rpc"
+	rpc "github.com/go-kitbox/events/mq_event"
 )
 
 // UserCalcPayload 用户计算事件负载

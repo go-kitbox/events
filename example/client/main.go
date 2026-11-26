@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	rpc "github.com/osc678/pulsar-rpc/pulsar_rpc"
+	rpc "github.com/go-kitbox/events/mq_event"
 )
 
 // 定义消息子类型常量
