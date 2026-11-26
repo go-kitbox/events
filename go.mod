@@ -1,4 +1,4 @@
-module github.com/osc678/pulsar-rpc
+module github.com/go-kitbox/events
 
 go 1.21
 
